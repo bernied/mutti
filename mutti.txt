@@ -1,0 +1,49 @@
+-Skat deck (32 cards, 4 suits, {K, Q, J, 10, 9, 8, 7, A})
+-Remove all spade cards (black) from deck and place in seperate deck
+-Shuffle spades deck and drawing from the top place cards in a row in middle of the playing surface
+  -This is called "the run"
+  -The run determines what cards beat what other cards (as described below)
+-Deal cards from main deck (24 cards) to 3 players, using 3-2-3 pattern
+-Players now bid to go "left" or "right"
+  -A player must publically bid starting with the dealer in a counter clockwise manner
+    -the number of tricks they intend to win (out of 8 possible)
+    -and the direction they wish for the run to represent hi-to-low (left or right)
+    -and if ace is hi or low.
+    -five-right-hi is 5/8 tricks, run goes right and ace is hi
+  -The player with the highest bid wins and the direction of the run is set by their bid (1L or 1R)
+  -If two players have the same bid but opposing directions then the third player chooses the winning bid (1L or 1R)
+  -If two players have the same bid and the same direction, then (2L or 2R)
+    -they play against each to determine the winner
+    -3rd player attempts to win by making both lose
+  -If three players have the same bid (3L or 3R)
+    -Direction of the run is set by the majority of bidders
+    -Everyone plays for their own points
+-Scoring
+  -1L/1R
+    -If the bid winner gets as many tricks as they declared, they win 10 points, everyone else gets 0
+    -If the bid winner fails to get the declared tricks
+      -they win 0 points
+      -and the 2 other players get 1 point per trick they won
+  -2L/2R
+    -Each bid winner that gets their declared tricks gets 5 points
+    -Each bid winner that gets less then their declared tricks gets 0 points
+    -The bid loser gets
+      -10 points if neither bidder gets their declared number of tricks
+      -5 points if one bidder gets their declared number of tricks and the other fails to get their tricks
+      -0 points if both bidders get their declared tricks
+  -3L/3R
+    -Each player gets as many points as tricks they collect
+  -First player >= 100 points wins the round
+    -If two players score >= 100 points the player with the most points wins
+    -If two or more players score >= 100 points and have the same score then
+      -another game must be played
+      -The player with the most points after this game wins (including the previously 3rd placed player)
+-Winning Tricks
+  -There are 3 suits in the game: clubs (green), hearts (red) and diamonds (blue). (Should use 4 color deck.)
+  -The bid winner plays the first card
+  -A player must follow suit if they can
+  -If a player can not follow suit they can play any card in their hand
+  -Jacks are trump and will beat any card: Jack clubs > Jack hearts > Jack diamonds
+  -Players do not need to play jacks on jack, but they do need to follow suit
+  -The winner of the trick depends on the suit lead, the card played and the direction of the run
+    -A card is higher then another card when it...
